@@ -1,0 +1,48 @@
+.main{
+	background-color: #a5a5a5;
+}
+.picture{
+	text-align: center;
+}
+.table{
+	color: white;
+	text-align: center;
+	margin: auto;
+	width: 60%;
+}
+.td{
+	color: whitesmoke;
+	text-align:	center;
+	width: 4%;
+	background-color: #a73820;
+}
+.number{
+	text-align: left;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	margin-left: 10%;
+	color: black;
+	font-size: 0.4vw;
+}
+.element{
+	text-align: center;
+	font-weight: bold;
+	color: #242326;
+	font-size: 1vw;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	text-shadow: wheat 0.01vw 0.02vw 0;
+}
+.weight{
+	text-align: right;
+	margin-right: 10%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	font-size: 0.4vw;
+}
+.td_empty{
+	color: whitesmoke;
+}
+.string{
+	align-content: center;
+}

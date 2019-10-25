@@ -1,0 +1,148 @@
+body{
+	background-color: #4F4F4F;
+}
+header {
+	display: block;
+	position: relative;
+}
+.day42{
+	background-color: #909090;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px black;
+	margin-right: 22%;
+	margin-left: 22%;
+}
+.menu{
+	background-color: #909090;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px black;
+	margin-right: 25%;
+	margin-left: 25%;
+	margin-top: 1%;
+}
+.img_42{
+	border-radius: 10px;
+	width: 35%;
+	margin-top: 1%;
+	padding: 0.5%;
+}
+.img_loupe{
+	width: 20%;
+	float: right;
+	margin-top: 1%;
+	margin-right: 2%;
+}
+.img_close{
+	position: absolute;
+	right: .5em;
+	bottom: .5em;
+	width: 1.5%;
+}
+.img_reload {
+	position: absolute;
+	right: .5em;
+	top: .5em;
+	width: 1.5%;
+}
+.img_arrow{
+	width: 50%;
+	padding: 8%;
+}
+.img_oeil{
+	border: 4px solid red;
+	border-radius: 6px;
+	width: 50%;
+	padding: 8%;
+}
+.img_chat{
+	width: 50%;
+	padding:8%;
+}
+.img_main{
+	width: 50%;
+	padding: 8%;
+}
+.img_outil{
+	width: 50%;
+	padding: 8%;
+}
+.left_m{
+	width: 10%;
+	float: left;
+	height: 30%;
+}
+
+.right_m{
+	width: 10%;
+	height: 30%;
+	float: right;
+}
+
+.box_1{
+	box-sizing: border-box;
+	background-color: #909090;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px black;
+}
+.box_2{
+	box-sizing: border-box;
+	background-color: #909090;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px black;
+}
+.img_bricks{
+	background-image: url("resources/brick.jpg");
+	width: 90%;
+	height: 4em;
+	margin: 2%;
+	margin-bottom: 100%;
+}
+.img_icon{
+	width: 50%;
+	padding: 8%;
+}
+.cluster {
+	padding: 0.5%;
+	background-color: #8F8F8F;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px black;
+	float: left;
+	margin-left: 2%;
+	width: 75%;
+}
+.img_cluster{
+	width: 100%;
+}
+.window{
+	bottom: 35%;
+	position: absolute;
+	left: 25%;
+	background-color: #8F8;
+	width: 15%;
+	border-radius: 5%;
+	box-shadow: 5px 5px 5px black;
+	height: 12%;
+}
+.borders {
+	border: 5% solid red;
+	border-radius: 5%;
+}
+
+.txt-big {
+	font-size: 40px;
+}
+.txt-shadow {
+	text-shadow: -.25em .25em .25em red;
+}
+.txt-italic {
+	font-style: italic;
+}
+
+.input-text {
+	width: 75%;
+	margin-bottom: 20%;
+}
+.all{
+	margin-left: 3%;
+	margin-top: 1%;
+}

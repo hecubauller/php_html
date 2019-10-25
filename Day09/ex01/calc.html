@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="html">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <style>
+        .html{
+            background-color: #ff9cc2;
+        }
+        .calc{
+            text-align: center;
+            padding-top: 500px;
+        }
+        #first, #second, #op{
+            background-color: #ff6b8b;
+        }
+    </style>
+</head>
+<body>
+    <div class="calc">
+        <input id="first" type="text">
+        <select id="op">
+            <option>+</option>
+            <option>-</option>
+            <option>*</option>
+            <option>/</option>
+            <option>%</option>
+        </select>
+        <input id="second" type="text">
+        <input type="submit" value="Try me!" onclick="execute();"></input>
+    </div>
+<script>
+    setInterval(function(){ alert("Please, use me..."); }, 30000);
+</script>
+<script>
+    function execute()
+    {
+        var res = 0;
+        var op = document.getElementById('op').value;
+        var f = parseInt(document.getElementById('first').value);
+        var s = parseInt(document.getElementById('second').value);
+        if (s === 0 && (op === '/' || op === '%'))
+        {
+            alert("It’s over 9000!");
+            console.log("It’s over 9000!");
+        }
+        else if (f >= 0 && s >= 0)
+        {
+            if (op === '+')
+                res = f + s;
+            else if (op === '-')
+                res = f - s;
+            else if (op === '/')
+                res = f / s;
+            else if (op === '*')
+                res = f * s;
+            else if (op === '%')
+                res = f % s;
+            alert(res);
+            console.log(res);
+        }
+        else
+            alert("Error :(");
+    }
+</script>
+</body>
+</html>

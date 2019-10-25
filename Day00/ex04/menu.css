@@ -1,0 +1,58 @@
+body{
+	font-family: 'Poppins';
+	background-color: #a99c9b;
+}
+.header{
+	margin-top: 0;
+	font-family: 'Poppins';
+}
+.menu *{
+	margin: 0;
+	padding: 0;
+}
+.menu ul,
+.menu ol{
+	list-style: none;
+}
+.menu > ul{
+	display: flex;
+	justify-content: center;
+}
+.menu > ul li a{
+	display: block;
+	background: #d9868f;
+	padding: 15px 30px 15px 40px;
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+}
+.menu >ul li{
+	position: relative;
+}
+.menu > ul li > a i.text_menu{
+	position: relative;
+	text-align: center;
+}
+.menu li a:hover{
+	background: white;
+	color: #DC282C;
+	transition: all 0.3s ease;
+}
+.menu li ul{
+	position: absolute;
+	min-width: 1vw;
+	display: none;
+}
+.menu li > ul li a{
+	padding: 10px;
+	text-transform: none;
+}
+.menu li:hover > ul{
+	display: block;
+}
+.text{
+	text-align: center;
+	color: white;
+}
